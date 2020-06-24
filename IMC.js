@@ -8,6 +8,6 @@ bmi = weight / (height*height);
 
 if (bmi>=30){
     console.log(`${name} your BMI is ${bmi} and you're above the ideal weight.`);
-} else if (imc<=29.9) {
+} else if (bmi<=29.9) {
     console.log(`${name} your BMI is ${bmi} and you aren't above the ideal weight.`);
 }
