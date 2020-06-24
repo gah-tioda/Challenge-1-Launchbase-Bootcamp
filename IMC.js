@@ -1,11 +1,13 @@
-//Desafio 1
-const nome = "Gabriel";
-const peso = 86.0;
-const altura = 1.90;
-imc = peso / (altura*altura);
+/*BMI Calculator*/
 
-if (imc>=30){
-    console.log(`${nome} seu IMC é ${imc} e você está acima do peso`);
+const name = "Gabriel"; //Type a name here.
+const weight = 86.0; //Type a weight here.
+const height = 1.90; //Type a height here.
+
+bmi = weight / (height*height);
+
+if (bmi>=30){
+    console.log(`${name} your BMI is ${bmi} and you're above the ideal weight.`);
 } else if (imc<=29.9) {
-    console.log(`${nome} seu IMC é ${imc} e você não está acima do peso`);
+    console.log(`${name} your BMI is ${bmi} and you aren't above the ideal weight.`);
 }
